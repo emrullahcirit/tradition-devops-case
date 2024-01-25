@@ -7,7 +7,7 @@ variable "SECRET_KEY" {
 }
 
 variable "REGION" {
-    type = string
-    default = "ap-northeast-1"
+  type = string
+  default = "ap-northeast-1"
 }
 
