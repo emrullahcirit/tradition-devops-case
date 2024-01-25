@@ -6,5 +6,5 @@ module "vpc" {
   cidr = var.vpc_cidr
   azs = var.azs
   public_subnets  = var.public_subnets
-	map_public_ip_on_launch = true
+  map_public_ip_on_launch = true
 }
